@@ -1,7 +1,18 @@
 {
   "name": "blogsandarchives-web",
   "version": "0.0.0",
-  "private": true,
+  "description": "Frontend website of the blogsandarchives app.",
+  "homepage": "https://github.com/blogsandarchives/blogsandarchives-web#readme",
+  "bugs": "https://github.com/blogsandarchives/blogsandarchives-web/issues",
+  "license": "GPL-3.0",
+  "contributors": [
+    "Leung Yau Ming <leungyauming2005@gmail.com>",
+    "Frankium <tis7bfrankie@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blogsandarchives/blogsandarchives-web.git"
+  },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
@@ -47,5 +58,6 @@
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-recommended-vue": "^1.1.0",
     "stylelint-config-standard": "^24.0.0"
-  }
+  },
+  "private": true
 }
