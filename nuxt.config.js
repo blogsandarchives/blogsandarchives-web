@@ -70,7 +70,10 @@ export default {
   // Preload Styles
   styleResources: {
     // your settings here
-    scss: ['@/assets/styles/themes/dark.scss'],
+    scss: [
+      '@/assets/styles/themes/dark.scss',
+      '@/assets/styles/breakpoints.scss',
+    ],
     hoistUseStatements: true, // Hoists the "@use" imports. Applies only to "sass", "scss" and "less". Default: false.
   },
 }
