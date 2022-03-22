@@ -32,6 +32,18 @@ body {
 }
 
 .dark-mode {
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.2);
+  }
+
   * {
     font-family: 'Victor Mono', monospace;
     color: $foreground-white;
