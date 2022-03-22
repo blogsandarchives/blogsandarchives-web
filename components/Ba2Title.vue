@@ -18,11 +18,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-span {
-  font-size: $typography-title;
+.dark-mode {
+  span {
+    font-size: $typography-title;
 
-  &.symbol {
-    color: $foreground-gray;
+    &.symbol {
+      color: $foreground-gray;
+    }
   }
 }
 </style>
