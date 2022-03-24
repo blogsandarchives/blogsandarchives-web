@@ -25,6 +25,38 @@ export default {
   src: url('@/assets/fonts/VictorMono-Bold.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Victor Mono';
+  font-style: italic;
+  font-weight: normal;
+  font-display: swap;
+  src: url('@/assets/fonts/VictorMono-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Victor Mono';
+  font-style: italic;
+  font-weight: bold;
+  font-display: swap;
+  src: url('@/assets/fonts/VictorMono-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Victor Mono';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url('@/assets/fonts/VictorMono-SemiBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Victor Mono';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('@/assets/fonts/VictorMono-SemiBold.ttf') format('truetype');
+}
+
 body {
   margin: 0;
   padding: 0;
