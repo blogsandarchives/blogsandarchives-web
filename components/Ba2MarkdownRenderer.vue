@@ -27,6 +27,9 @@ export default {
 <style lang="scss">
 .dark-mode {
   .markdown-result {
+    p {
+      margin-top: 0;
+    }
     p,
     em,
     del,
