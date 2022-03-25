@@ -63,6 +63,11 @@ body {
   height: 100vh;
 }
 
+#__nuxt,
+#__layout {
+  height: 100vh;
+}
+
 .dark-mode {
   ::-webkit-scrollbar {
     width: 4px;
