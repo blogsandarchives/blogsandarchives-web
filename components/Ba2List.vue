@@ -30,6 +30,7 @@ export default {
 <style lang="scss" scoped>
 .list-container {
   display: flex;
+  height: 100%;
 
   &.caa-center {
     align-items: center;
