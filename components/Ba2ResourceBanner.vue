@@ -71,7 +71,7 @@
           cross-axis-allignment="start"
           class="tag-container"
         >
-          <div class="resource-tag">{{ $t('location') }}: {{ filetype }}</div>
+          <div class="resource-tag">{{ $t('location') }}: {{ location }}</div>
           <div class="resource-tag">
             {{ $t('uploadDate') }}: {{ getUploadDate }}
           </div>
