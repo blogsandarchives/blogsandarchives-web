@@ -1,0 +1,72 @@
+$ui-01: #222222;
+$ui-02: #2E2E2E;
+$ui-03: #5A5A5A;
+$ui-04: #E0E0E0;
+$ui-05: #ECFFFC;
+$green-01: #00372D;
+$green-02: #00483B;
+$green-03: #10E5BF;
+$blue-01: #001D38;
+$blue-02: #002648;
+$blue-03: #A7D5FF;
+$red-01: #450000;
+$red-02: #560101;
+$red-03: #FF9090;
+$purple-01: #240039;
+$purple-02: #2D0048;
+$purple-03: #E0ACFF;
+$yellow-01: #301D00;
+$yellow-02: #482B00;
+$yellow-03: #FFDFAE;
+
+$background: $ui-01;
+$background-secondary: $ui-02;
+$interactive: $ui-02;
+$interactive-active: $ui-03;
+$foreground: $ui-04;
+$foreground-contrast-01: $ui-05;
+$foreground-contrast-02: $ui-03;
+$foreground-link: $green-03;
+
+$title-size: 64px;
+$header-size: 36px;
+$content-size: 24px;
+$label-size: 18px;
+
+:root{ 
+  --ui-01: #222222;
+  --ui-02: #2E2E2E;
+  --ui-03: #5A5A5A;
+  --ui-04: #E0E0E0;
+  --ui-05: #ECFFFC;
+  --green-01: #00372D;
+  --green-02: #00483B;
+  --green-03: #10E5BF;
+  --blue-01: #001D38;
+  --blue-02: #002648;
+  --blue-03: #A7D5FF;
+  --red-01: #450000;
+  --red-02: #560101;
+  --red-03: #FF9090;
+  --purple-01: #240039;
+  --purple-02: #2D0048;
+  --purple-03: #E0ACFF;
+  --yellow-01: #301D00;
+  --yellow-02: #482B00;
+  --yellow-03: #FFDFAE;
+  
+  --background: var(--ui-01);
+  --background-secondary: var(--ui-02);
+  --interactive: var(--ui-02);
+  --interactive-active: var(--ui-03);
+  --foreground: var(--ui-04);
+  --foreground-contrast-01: var(--ui-05);
+  --foreground-contrast-02: var(--ui-03);
+  --foreground-link: var(--green-03);
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
